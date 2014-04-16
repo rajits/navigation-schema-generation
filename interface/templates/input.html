@@ -4,10 +4,10 @@
             {{form.hidden_tag()}}
             <p>
             Name of app: {{form.name_of_app}}<br/>
-            Destinations: {{form.destinations}}<br/>
-            Destination tabs: {{form.tabs}}<br/>
+            Destinations: {{form.destinations(size=80)}}<br/>
+            Destination tabs: {{form.tabs(size=80)}}<br/>
             </p>
-            <p><input type="submit" value="Generate xls"></p>
+            <p><input type="submit" value="Generate schema"></p>
         </form>
     </body>
 </html>
